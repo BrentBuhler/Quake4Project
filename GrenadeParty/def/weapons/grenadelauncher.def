@@ -78,7 +78,7 @@ entityDef weapon_grenadelauncher
 	"spread"					"0"
 	
 	// the direction of projectile launches will be modified by this
-	"dirOffset"					"0 0 .6" // "0 0 .2"
+	"dirOffset"					"0 0 1" // "0 0 .2"
 	
 	"inv_weapon"				"weapon_grenadelauncher"
 	"inv_start_ammo_grenadelauncher"	"10"
@@ -101,14 +101,14 @@ entityDef weapon_grenadelauncher
 	"muzzle_kick_angles"		"-4 0 0"
 	"muzzle_kick_offset"		"2 0 1"
 
-	"recoilTime"				"0"//"500"
-	"recoilAngles"				"-.20 0 0"
+	"recoilTime"				"1" //"500"
+	"recoilAngles"				"-.80 0 0" //"-.20 0 0"
 	
 	"mtr_flashShader"			"lights/muzzleflash"
-	"flashColor"				"0.99 0.84 .31"
-	"flashRadius"				"200"
+	"flashColor"				"0.29 0.14 .91" //"0.99 0.84 .31"
+	"flashRadius"				"500" //"200"
 	"flashPointLight"			"1"
-	"flashTime"					".1"
+	"flashTime"					"2" //".1"
 	"flashViewOffset"			"15 -5 -5"
 
 	"mtr_guiLightShader"		"lights/viewWeaponGuiLight"
@@ -244,15 +244,15 @@ entityDef projectile_grenade
 	"def_damage"				"damage_grenadeDirect"
 	"def_splash_damage"			"damage_grenadeSplash"
 																											
-	"speed"						"1000"
-	"angular_velocity"			"-10 5 1"
+	"speed"						"2000"//"1000"
+	"angular_velocity"			"-15 10 3" //"-10 5 1"
 	"settle_duration"			"0.08"
 	
 	"linear_friction"			"0"
 	"angular_friction"			"0"
 	"contact_friction"			"10"
-	"bounce"					".9"
-	"gravity"					"0.5"
+	"bounce"					"4" //".9"
+	"gravity"					"3" //"0.5"
 	"fuse"						"2.5"
 								
 	"detonate_on_fuse"			"1"

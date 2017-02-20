@@ -74,7 +74,7 @@ entityDef weapon_grenadelauncher
 	"joint_view_barrel"			"barrel"
 	"joint_world_flash"			"muzzle_flash"
 
-	"fireRate"					".8"
+	"fireRate"					"0.1" //".8"
 	"spread"					"0"
 	
 	// the direction of projectile launches will be modified by this
@@ -93,15 +93,15 @@ entityDef weapon_grenadelauncher
 	"ammoRequired"				"0" //"1"
 	"mtr_icon"					"gfx/guis/hud/icons/gun_grenadelauncher"
 
-	"ammoRegenStep"				"1"
-	"ammoRegenTime"				"2000"
+	"ammoRegenStep"				"-1"//"1"
+	"ammoRegenTime"				"-1" //"2000"
 
-	"muzzle_kick_time"			"0.8"
-	"muzzle_kick_maxtime"		"0.8"
+	"muzzle_kick_time"			"0" //"0.8"
+	"muzzle_kick_maxtime"		"0" //"0.8"
 	"muzzle_kick_angles"		"-4 0 0"
 	"muzzle_kick_offset"		"2 0 1"
 
-	"recoilTime"				"1" //"500"
+	"recoilTime"				"0" //"500"
 	"recoilAngles"				"-.80 0 0" //"-.20 0 0"
 	
 	"mtr_flashShader"			"lights/muzzleflash"
